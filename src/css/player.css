@@ -3,20 +3,20 @@ body {
   background-color: rgb(255, 246, 235);
 }
 
-iframe.video-player {
+.video-player {
   border-radius: 20px;
   box-shadow: 4px 4px 10px rgb(2, 3, 2);
   width: 80vw;
   height: 45vw;
 }
 @media screen and (max-width: 800px) {
-  iframe.video-player {
+  .video-player {
     width: 75vw;
     height: 42.1875vw;
   }
 }
 @media screen and (max-width: 400px) {
-  iframe.video-player {
+  .video-player {
     width: 70vw;
     height: 39.375vw;
   }
@@ -92,6 +92,16 @@ iframe.video-player {
 .all-text-container .text-block .block-text {
   font-family: "Playfair Regular";
 }
-.all-text-container .text-block .block-text .block-list {
+.all-text-container .text-block .block-list {
   list-style: "-  ";
+}
+
+#error-heading.video-player {
+  font-family: "Playfair Regular";
+  box-shadow: none;
+  border: 5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
