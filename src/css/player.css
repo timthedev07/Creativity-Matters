@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 246, 235);
+}
+
+iframe.video-player {
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgb(2, 3, 2);
+  width: 80vw;
+  height: 45vw;
+}
+@media screen and (max-width: 800px) {
+  iframe.video-player {
+    width: 75vw;
+    height: 42.1875vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  iframe.video-player {
+    width: 70vw;
+    height: 39.375vw;
+  }
+}
+.video-player-wrapper {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-content {
+  padding: 10px;
+}
+
+.app-content .heading {
+  color: black;
+  font-family: "Playfair Italic";
+  text-align: center;
+  font-size: calc(26px + 4vw);
+  margin: 0;
+  margin-top: 20px;
+}
+.app-content .subheading {
+  color: black;
+  font-family: "Playfair Italic";
+  text-align: center;
+  font-size: calc(15px + 2vw);
+  margin-top: 0;
+}
+
+.all-text-container {
+  border: solid 2px rgb(189, 168, 137);
+  min-height: 700px;
+  width: auto;
+  height: max-content;
+  margin: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.all-text-container .text-block {
+  min-height: 200px;
+  height: max-content;
+  max-width: 300px;
+  width: max-content;
+  margin: 20px;
+  padding: 15px;
+  border: dashed 2px rgb(189, 168, 137);
+}
+
+@media screen and (max-width: 300px) {
+  .all-text-container .text-block {
+    margin: 10px;
+  }
+  .all-text-container {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+.all-text-container .text-block .block-heading {
+  text-align: center;
+  font-family: "Playfair Italic";
+  width: 100%;
+  border-bottom: solid goldenrod 2px;
+  padding-bottom: 20px;
+}
+.all-text-container .text-block .block-text {
+  font-family: "Playfair Regular";
+}
+.all-text-container .text-block .block-text .block-list {
+  list-style: "-  ";
+}

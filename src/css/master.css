@@ -1,0 +1,15 @@
+@import url(player.css);
+
+@font-face {
+  font-family: "Playfair Italic";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+  src: /* Modern Browsers */ url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Regular";
+  src: url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+  src: /* Modern Browsers */ url(../assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf)
+    format("truetype");
+}
